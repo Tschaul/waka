@@ -1,0 +1,100 @@
+
+
+- waka
+|
+| - version 5
+| - dateCreated
+| - dateTouched
+| - dateUsersTouched
+| - maxPostId
+| - maxFileId
+| - maxImageId
+| - users:key
+  |
+  | - email
+  | - type
+  | - dateJoined
+  | - notificationCooldown
+|
+| - starter
+  |
+  | - title
+  | - content
+  | - dateContentTouched
+  | - dateImagesTouched
+  | - dateFilesTouched
+  | - files[]
+    |
+    | - id
+    | - url
+    | - name
+    | - dateCreated
+  |
+  | - images[]
+    |
+    | - id
+    | - url
+    | - name
+    | - dateCreated
+  |
+|
+| - posts[]
+  |
+  | - id
+  | - maxCommentId
+  | - users:email
+    |
+	| dateRead
+	| mayEdit
+	| dateToched
+  |
+  | - content
+  | - dateContentTouched
+  | - dateImagesTouched
+  | - dateFilesTouched
+  | - dateUsersTouched
+  | - dateCreated
+  | - files[]
+    |
+    | - id
+    | - url
+    | - name
+    | - dateCreated
+  |
+  | - images[]
+    |
+    | - id
+    | - url
+    | - name
+    | - dateCreated
+  |
+  | - comments[]
+    |
+    | - id
+    | - user
+    | - content
+    | - dateCreated
+  |
+| - drafts:users
+  |
+  | - title
+  | - content
+  | - dateContentTouched
+  | - dateImagesTouched
+  | - dateFilesTouched
+  | - dateCommentsTouched
+  | - files[]
+    |
+    | - id
+    | - url
+    | - name
+    | - dateCreated
+  |
+  | - images[]
+    |
+    | - id
+    | - url
+    | - name
+    | - dateCreated
+  |
+|

@@ -1,0 +1,286 @@
+* { 
+
+font-family: Verdana;
+line-height: 1.3em;
+color: #0c101c;
+
+}
+
+
+a > img {
+
+border: 0px;
+
+}
+
+textarea {
+
+font-size: 0.9em;
+
+}
+
+code {
+
+	font-family: monospace;
+
+}
+
+.clearspacer{
+
+	clear:both;
+
+
+}
+
+html{
+
+	background: url("img/bg.png") repeat-x;
+
+}
+
+.all {
+
+	background: #fff;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 16px 16px 22px 16px;
+	border: 1px solid #b1b3ba;
+
+}
+
+.loading {
+
+	float:left;
+
+}
+
+.uploader {
+
+	margin-top: 10px;
+	margin-bottom:5px;
+
+}
+
+.file {
+
+margin-right: 4px;
+
+}
+
+.image {
+
+margin-right: 4px;
+margin-top: 10px;
+
+min-width:64px;
+min-height:64px;
+
+}
+
+.headwrapper{
+
+border-bottom: 1px solid #aaa;
+
+}
+
+.headLeft {
+
+float: left;
+width: 410px;
+padding: 15px;
+
+}
+
+.headProperties {
+
+padding: 20px;
+
+}
+
+.headRight {
+
+float: left;
+width: 329px;
+padding: 15px 15px 0 15px;
+border-left: 1px dashed #666;
+
+}
+
+
+.starter{
+
+padding: 8px 0;
+
+
+}
+
+.starterEditSwitch {
+
+	float:right;
+
+}
+
+
+.draft{
+
+padding-top: 8px;
+border-top: 1px solid #aaa;
+
+}
+
+
+.draftEditSwitch {
+
+	float:right;
+
+}
+
+.draftEditWrapper{
+
+float: left;
+width: 716px;
+margin-left: 84px;
+
+}
+
+.draft_content_form{
+
+
+
+}
+
+
+.post{
+
+	padding-top: 8px;
+	border-top: 1px solid #aaa;
+	background: white;
+	overflow: hidden;
+	position: relative;
+	font-size: 0.9em;
+	
+}
+
+.postEditSwitch {
+
+	float:right;
+
+}
+
+.starter{
+
+	font-size:0.9em;
+
+}
+
+.post_wrapper {
+
+	float: left;
+	width: 736px;
+	padding-bottom: 8px;
+	position: relative;
+
+}
+
+.post_small_gradient{
+
+	background: url("img/wtotran.png") repeat-x bottom;
+	position: absolute;
+	height: 152px;
+	bottom: 0;
+	width: 800px;
+	left: -64px;
+
+}
+
+.post_comments {
+
+	width: 716px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+.post_comment {
+
+	
+	margin-top: 25px;
+
+}
+
+.post_comment_content {
+
+	width: 600px;
+	float: left;
+	padding-left: 10px;
+	font-size: 0.8em;
+
+}
+
+.post_comment_adder {
+
+	margin-top: 20px;
+	
+	font-size: 0.9em;
+
+}
+
+.post_comment_form {
+
+	float: left;
+	padding-left: 10px;
+
+}
+
+.post_form {
+
+	
+	margin-left: 20px;
+
+}
+
+.post_display {
+
+	
+	margin-left: 20px;
+
+}
+
+.post_meta {
+
+	margin-left: 20px;
+
+}
+
+.commentavatar {
+
+	position: relative;
+	float: left;
+	width: 32px;
+
+}
+
+.post_avatar {
+
+	position: relative;
+	float: left;
+	width: 64px;
+
+}
+
+.post_avatar img {
+
+	float: right;
+
+}
+.post_avatar p {
+
+	margin-top:0;
+
+}
+
+hr {
+
+ clear: both;
+
+}
