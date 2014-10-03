@@ -1,8 +1,7 @@
-waka
-====
+![Waka Logo](http://dasunwahrscheinliche.de/waka/img/wakalogo.png)
 
-Waka is communcation tool, to keep a group of people up to date on a specific project.
-A Waka instance functions much like a single forum thread, but without the over head of
+Waka is a communcation tool, to keep a group of people up to date on a specific project.
+A Waka instance functions much like a single forum thread, but without the overhead of
 signup. Instead it utilizes email adresses as authentication (much like doodle).
 A Waka can send out email notifitcations when it was edited and highlights the
 new posts and comments in the Waka. Other features include:
@@ -30,3 +29,7 @@ start using Waka.
 ###Demo Server
 
 http://dasunwahrscheinliche.de/waka/
+
+###Waka For Patchnotes And Feature Requests
+
+http://dasunwahrscheinliche.de/waka/?w=mPtGKCdtff
