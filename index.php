@@ -77,10 +77,10 @@ if( isset($_REQUEST['w']) && wakaExists($_REQUEST['w']) ){
 }else{
 
 	echo '<h4>Create new waka:</h4>';
-	echo '<form action="newwaka.php" method="post" name="createWaka" class="createWaka_form" autocomplete="off">';
-	echo 'Just put your email adress: <input type="text" value="" name="email"><br>';
-	echo '... and a title <input type="text" value="" name="title">';
-	echo '<p><input type="submit" name="create" value="create"></p></form>';
+	echo '<big><form action="newwaka.php" method="post" name="createWaka" class="createWaka_form" autocomplete="off">';
+	echo '<p>Just put your email adress: <input type="text" value="" name="email"></p>';
+	echo '<p>... and a title of your new waka: <input type="text" value="" name="title"></p>';
+	echo '<p><input type="submit" name="create" value="create"> and voilà.</p></form></big>';
 
 	$wakaisactive=false;
 
