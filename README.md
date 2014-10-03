@@ -1,7 +1,7 @@
 ![Waka Logo](http://dasunwahrscheinliche.de/waka/img/wakalogo.png)
 
-Waka is a communcation tool, to keep a group of people up to date on a specific project.
-A Waka instance functions much like a single forum thread, but without the overhead of
+Waka is a communication tool, to keep a group of people up to date on a specific project.
+A Waka instance functions much like a single forum thread but without the overhead of
 signup. Instead it utilizes email adresses as authentication (much like doodle).
 A Waka can send out email notifitcations when it was edited and highlights the
 new posts and comments in the Waka. Other features include:
@@ -17,13 +17,13 @@ new posts and comments in the Waka. Other features include:
 ###Security Issues
 
 Because Waka's security builds on email and does not provide further username
-and password authentication it can not be considered secure. One method of
+and password authentication it cannot be considered secure. One method of
 adding security is to restrict access to the waka server my means
 of the webserver (e.g. through .htaccess).
 
 ###Installation
 
-Upload the files onto a php enabled websever. Browse to the that folder and
+Upload the files to a folder on a php enabled websever. Browse to that folder and
 start using Waka.
 
 ###Demo Server
